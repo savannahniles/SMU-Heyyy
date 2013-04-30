@@ -1,0 +1,80 @@
+body {
+	font-family: 'Source Code Pro', sans-serif;
+
+}
+h1 {
+	font-size: 64px;
+	font-weight: 300;
+}
+#buttons {
+	text-align: right;
+	position: fixed;
+	top: 55px;
+	right: 25px;
+	width: 125px;
+	height: 100px;
+}
+#buttons img {
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+#info, #add {
+	display: none;
+	text-align: left;
+	position: fixed;
+	top: 55px;
+	right: 150px;
+	width: 200px;
+	font-size: 12px;
+}
+
+#add ul {
+	list-style-type:none;
+    list-style-position:outside;
+    margin:0px;
+    padding:0px;
+}
+
+#map {
+	position: fixed;
+	top: 220px;
+	right: 25px;
+	width: 325px;
+	height:350px;
+	background-color: red;
+}
+
+.items {
+	list-style:none;
+	margin:0;
+	padding:0;
+	border-spacing:5px;
+}
+.post {
+	margin-bottom: 25px;
+	width: 67%;
+}
+.items li {
+	display:table-row;
+	padding:5px;
+	margin:0 0 10px 0;
+}
+.items li {
+	margin:0 0 5px 0;
+}
+.timestamp {
+	color: #ccc;
+}
+
+.author, a, a:visited {
+	color: #0099ff;
+}
+.title {
+	font-size: 24px;
+}
+#footer {
+	font-size: 10px;
+	margin-top: 50px;
+}
+
