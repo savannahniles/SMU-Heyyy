@@ -7,6 +7,7 @@
 <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="css/flexselect.css" type="text/css" media="screen" />
 
+<script src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
 <script src="js/liquidmetal.js" type="text/javascript"></script>
 <script src="js/jquery.flexselect.js" type="text/javascript"></script>
@@ -16,8 +17,8 @@
 
 </head> 
 <body>
+	<div id="topHeader">
 	<h1>Heyyy.</h1> 
-	<div id="item-list"> </div> 
 	<div id="buttons"> 
 		<img id="addButton" src="img/add.png"> <img id="infoButton" src="img/info.png">
 	</div>
@@ -121,6 +122,8 @@
 			</ul>
 		</form>
 	</div>
-	<div id="footer">Icons: <a href="http://lyle.smu.edu/~sniles/SMUheyyy/">John Chapman</a></div>
+	</div>
+
+	<div id="map-canvas"></div>
 </body>
 </html>

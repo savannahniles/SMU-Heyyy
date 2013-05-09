@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Simple styled maps</title>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-
-    <script>
 var map;
-var brooklyn = new google.maps.LatLng(32.842529,-96.783435);
+var brooklyn = new google.maps.LatLng(32.843341,-96.781847);
 
 var MY_MAPTYPE_ID = 'custom_style';
 
@@ -56,10 +48,3 @@ function initialize() {
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
-
-    </script>
-  </head>
-  <body>
-    <div id="map-canvas"></div>
-  </body>
-</html>
