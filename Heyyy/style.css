@@ -36,15 +36,6 @@ h1 {
     padding:0px;
 }
 
-#map {
-	position: fixed;
-	top: 220px;
-	right: 25px;
-	width: 325px;
-	height:350px;
-	background-color: red;
-}
-
 .items {
 	list-style:none;
 	margin:0;
