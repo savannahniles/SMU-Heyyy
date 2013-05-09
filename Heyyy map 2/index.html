@@ -11,7 +11,9 @@
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
 <script src="js/liquidmetal.js" type="text/javascript"></script>
 <script src="js/jquery.flexselect.js" type="text/javascript"></script>
+<link rel="stylesheet" href="css/tooltipster.css" type="text/css" />
 
+<script src="js/jquery.tooltipster.min.js" type="text/javascript" ></script>
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
 <script src="js/index.js" type="text/javascript"></script>
 
@@ -40,71 +42,8 @@
 			<ul>
 
 				<li>
-					<label for="entry_1475560818">Where are you? <br> <i>(Type to search)</i></label><br>
-					<select name="entry.1475560818" id="entry_1475560818" class="flexselect" required>
-						 <option value=""></option>
-						 <option value="Hughes Trigg">Hughes Trigg</option> 
-						 <option value="Boulevard">Boulevard</option> 
-						 <option value="Dedman Center">Dedman Center</option> 
-						 <option value="Cox">Cox</option> 
-						 <option value="Dallas Hall">Dallas Hall</option> 
-						 <option value="Fondren Science">Fondren Science</option> 
-						 <option value="Dedman Life Science">Dedman Life Science</option> 
-						 <option value="Hamon Arts Library">Hamon Arts Library</option> 
-						 <option value="Bridwell">Bridwell</option> 
-						 <option value="Fondren Library">Fondren Library</option> 
-						 <option value="Business Library">Business Library</option> 
-						 <option value="Lyle&nbsp;">Lyle </option> 
-						 <option value="Meadows">Meadows</option> 
-						 <option value="Mac&#39;s Place">Mac&#39;s Place</option> 
-						 <option value="Perkins School of Theology">Perkins School of Theology</option> 
-						 <option value="Perkins Chapel">Perkins Chapel</option> 
-						 <option value="McFarlin">McFarlin</option> 
-						 <option value="Hyer">Hyer</option> 
-						 <option value="Clements">Clements</option> 
-						 <option value="Underwood Law Library">Underwood Law Library</option> 
-						 <option value="Law School">Law School</option> 
-						 <option value="Perkins Admin">Perkins Admin</option>
-						 <option value="Blanton">Blanton</option> 
-						 <option value="Memorial Health Center">Memorial Health Center</option>
-						 <option value="Natatorium">Natatorium</option> 
-						 <option value="Track">Track</option> 
-						 <option value="Westcott Field">Westcott Field</option> 
-						 <option value="Intramural Field">Intramural Field</option> 
-						 <option value="Ford Stadium">Ford Stadium</option> 
-						 <option value="Umphrey Lee">Umphrey Lee</option> 
-						 <option value="Moody Coliseum">Moody Coliseum</option> 
-						 <option value="VS">VS</option> 
-						 <option value="Shuttles">Shuttles</option> 
-						 <option value="Peyton-Mary Hay">Peyton-Mary Hay</option> 
-						 <option value="Smith-Perkins">Smith-Perkins</option> 
-						 <option value="Hawk-Martin">Hawk-Martin</option> 
-						 <option value="Moore">Moore</option> 
-						 <option value="Boaz">Boaz</option> 
-						 <option value="Morrison-McGinnis">Morrison-McGinnis</option> 
-						 <option value="Cockrell-McIntosh">Cockrell-McIntosh</option> 
-						 <option value="McElvaney">McElvaney</option> 
-						 <option value="Daniel House">Daniel House</option> 
-						 <option value="SMU Service House">SMU Service House</option> 
-						 <option value="Simmons School">Simmons School</option> 
-						 <option value="DG">DG</option> 
-						 <option value="Kappa">Kappa</option> 
-						 <option value="Gamma Phi">Gamma Phi</option> 
-						 <option value="Alpha Chi">Alpha Chi</option> 
-						 <option value="Chi O">Chi O</option> 
-						 <option value="Pi Phi">Pi Phi</option> 
-						 <option value="Theta">Theta</option> 
-						 <option value="Tri Delt">Tri Delt</option> 
-						 <option value="Sigma Chi">Sigma Chi</option> 
-						 <option value="Lambda Chi">Lambda Chi</option> 
-						 <option value="Pike">Pike</option> 
-						 <option value="Sig Ep">Sig Ep</option> 
-						 <option value="Phi Delt">Phi Delt</option> 
-						 <option value="Fiji">Fiji</option> 
-						 <option value="Beta">Beta</option> 
-						 <option value="SAE">SAE</option> 
-						 <option value="Kappa Sig">Kappa Sig</option> 
-					</select>
+					<label for="entry.1475560818">Where are you?</label><br>
+         			<input type="text" name="entry.1475560818" value="" class="ss-q-short" id="entry_1475560818" dir="auto" required>
 				</li>
 
 				<li>
@@ -123,7 +62,23 @@
 		</form>
 	</div>
 	</div>
+	
+	<div id="dots">
+	<div id="post1" class="post">
+		<img src="img/dot.png" class="tooltip" title="<img src='img/plus-minus.png' width='50px' height='25px'><span style='color: #aaa;''>    5/9/2013 8:32:20 </span><br>Just saw a black cat on my way to a final. Good thing I'm not superstitious." />
+	</div>
+	<div id="post2" class="post">
+		<img src="img/dot.png" class="tooltip" title="<img src='img/plus-minus.png' width='50px' height='25px'><span style='color: #aaa;''>5/9/2013 7:28:54 </span><br>30 minutes until my last undergrad final ever..." />
+	</div>
+	<div id="post3" class="post">
+		<img src="img/dot.png" class="tooltip" title="<img src='img/plus-minus.png' width='50px' height='25px'><span style='color: #aaa;''>5/9/2013 7:13:45 </span><br>cofee" />
+	</div>
+	<div id="post4" class="post">
+		<img src="img/dot.png" class="tooltip" title="<img src='img/plus-minus.png' width='50px' height='25px'><span style='color: #aaa;''>5/8/2013 23:18:03 </span><br>Okay seriously, who robs someone in Fondren Science? There are only physicists and grad students there, both of whom have no money." />
+	</div>
+	</div>
 
-	<div id="map-canvas"></div>
+		<div id="map-canvas"></div>
+
 </body>
 </html>

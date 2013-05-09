@@ -90,4 +90,8 @@ $(document).ready(function() {
 
 jQuery(document).ready(function() {
   $("select.flexselect").flexselect();
+
+   $('.tooltip').tooltipster({
+				maxWidth: 200
+	});
 });
